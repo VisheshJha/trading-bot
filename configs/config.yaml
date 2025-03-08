@@ -1,0 +1,11 @@
+upstox:
+  client_id: "65b8fd0c-f73b-4674-bb53-a16823acfaaf"         # From Upstox developer dashboard
+  client_secret: "ulxvrms2j3"   # From Upstox developer dashboard
+  redirect_uri: "http://localhost:8080/callback"
+
+trading:
+  instrument_token: "NSE_EQ|INE848E01016"  # Example: Reliance
+
+strategy:
+  ema_short: 9
+  ema_long: 21
